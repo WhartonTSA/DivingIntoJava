@@ -132,3 +132,14 @@ test:
 </details>
 
 Now your project is ready to go.
+
+## Testing your plugin
+Now its time to run the Bukkit server and see how your plugin performs.
+
+1. Go to the `APCS Server` folder and double click the `server.bat` file (it might also just say `server` if you cannot see extensions)
+2. Click on the **green** bug icon in the top right of your IntelliJ Window
+
+> What we just did sets up a debug session for your Bukkit server. Any code that you change in IntelliJ will automagically be reflected in your Bukkit plugin without you needing to re-build the project.
+
+3. Open the Minecraft launcher and connect to your server
+4. Type `/test` and you should see `Hello World!`. If you did, you've completed this activity!
