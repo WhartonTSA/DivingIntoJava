@@ -149,4 +149,9 @@ Now its time to run the Bukkit server and see how your plugin performs.
 
 > If your Minecraft crashes saying something similar to `Pixel format not accelerated`, click the `Edit Profile` button on the bottom left of the launcher. Then check the `Executable:` box on the bottom of the window, and in the text box enter `C:\Program Files\Java\jre1.8.0_51\bin\javaw.exe`
 
-4. Type `/test` and you should see `Hello World!`. If you did, you've completed this activity!
+4. Run the `test` command in-game and you should see `Hello World!`. If you did, you've completed this activity!
+
+<details>
+	<summary>Don't know how to chat? Click me!</summary>
+	Hit the `T` key, then type `/test` and then press the enter key.
+</details>
