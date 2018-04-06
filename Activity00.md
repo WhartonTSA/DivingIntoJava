@@ -146,4 +146,7 @@ Now its time to run the Bukkit server and see how your plugin performs.
 > What we just did sets up a debug session for your Bukkit server. Any code that you change in IntelliJ will automagically be reflected in your Bukkit plugin without you needing to re-build the project.
 
 3. Open the Minecraft launcher and connect to your server
+
+> If your Minecraft crashes saying something similar to `Pixel format not accelerated`, click the `Edit Profile` button on the bottom left of the launcher. Then check the `Executable:` box on the bottom of the window, and in the text box enter `C:\Program Files\Java\jre1.8.0_51\bin\javaw.exe`
+
 4. Type `/test` and you should see `Hello World!`. If you did, you've completed this activity!
