@@ -152,6 +152,6 @@ Now its time to run the Bukkit server and see how your plugin performs.
 4. Run the `test` command in-game and you should see `Hello World!`. If you did, you've completed this activity!
 
 <details>
-	<summary>Don't know how to chat? Click me!</summary>
+	<summary>Don't know how to run commands? Click me!</summary>
 	Hit the `T` key, then type `/test` and then press the enter key.
 </details>
