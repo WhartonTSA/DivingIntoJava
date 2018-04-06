@@ -49,7 +49,7 @@ Before we can begin, you must set your environment up. Make sure you have your `
 		2. Tick `APCS Plugin.jar`
 		3. Click `OK`
 	6. Select the dropdown box next to `Search sources using module's classpath:` and in the dropdown select `APCS Plugin`
-	6. Click `Apply` then `OK`
+	7. Click `Apply` then `OK`
 
 ## Creating your first command
 Bukkit plugins are oriented around "commands", or directives provided by the user to the server. Your command can take any number of arguments and can give any type of response.
