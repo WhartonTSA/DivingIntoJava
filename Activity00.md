@@ -118,8 +118,10 @@ Now that your command has been given a behavior, its time to register it with Bu
   ```
 </details>
 
+
 7. Lastly, you need to add your command to the `plugin.yml` file.
 	1. Open the `plugin.yml` file, and add your command similar to the way that the `ping` command is entered.
+
 
 <details> 
   <summary>Stumped? Click me to reveal the solution.</summary>
@@ -130,6 +132,7 @@ test:
 	usage: "Usage: /test"
   ```
 </details>
+
 
 Now your project is ready to go.
 
