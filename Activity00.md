@@ -106,3 +106,29 @@ Your command structure is now set up, but it is not ready to be used yet. While 
 
 > You may want to look at [this page](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/command/CommandSender.html) which documents all the methods on the `CommandSender` class.
 
+Now that your command has been given a behavior, its time to register it with Bukkit. This will allow users to use your command in-game.
+
+6. In your `Main` class, register your command similar to the way that the `ping` command is registered.
+
+<details> 
+  <summary>Stumped? Click me to reveal the solution.</summary>
+  
+  ```java
+  this.getCommand("test").setExecutor(new HelloWorld());
+  ```
+</details>
+
+7. Lastly, you need to add your command to the `plugin.yml` file.
+	1. Open the `plugin.yml` file, and add your command similar to the way that the `ping` command is entered.
+
+<details> 
+  <summary>Stumped? Click me to reveal the solution.</summary>
+  
+  ```yml
+test:  
+	description: Hello world!  
+	usage: "Usage: /test"
+  ```
+</details>
+
+Now your project is ready to go.
