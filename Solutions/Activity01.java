@@ -19,6 +19,9 @@ public class WalletCommand implements CommandExecutor {
     private WalletManager walletManager;
     private Main plugin;
 
+    /**
+     * If you're confused about this block, see https://docs.oracle.com/javase/tutorial/java/javaOO/initial.html
+     */
     {
         walletManager = new WalletManager();
     }
